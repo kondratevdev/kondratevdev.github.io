@@ -1,0 +1,4 @@
+Sitemap: https://kondratev.dev/sitemap.xml
+
+User-agent: *
+Disallow: /404.html

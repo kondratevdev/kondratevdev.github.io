@@ -1,0 +1,13 @@
+title: kondratev.dev
+description: >-
+  Personal website of Alexander Kondratev.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kondratev.dev" # the base hostname & protocol for your site
+
+author: Alexander Kondratev
+email: mail@kondratev.dev
+username: kondratevdev
+
+plugins:
+  - jekyll-sitemap
