@@ -1,0 +1,22 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Favicon -->
+  {% include favicons.html %}
+
+  <!-- Open search scheme -->
+  <link rel="search"
+        type="application/opensearchdescription+xml"
+        title="kondratev.dev"
+        href="{{ "/opensearch.xml" | prepend: site.baseurl }}" />
+
+  <!-- Custom fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+
+  <!-- Custom style -->
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
+</head>
