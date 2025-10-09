@@ -1,0 +1,15 @@
+<svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.000000" height="40.000000" fill="none">
+	<defs>
+		<clipPath id="clipPath_0">
+			<rect width="26.666670" height="26.666668" x="6.666626" y="7.037109" fill="rgb(255,255,255)" />
+		</clipPath>
+	</defs>
+	<rect id="icons" width="40.000000" height="40.000000" x="0.000000" y="0.000000" />
+	<g id="mail_email_message_electronic_online_web_icon-icons.com_59986 1" clip-path="url(#clipPath_0)" customFrame="url(#clipPath_0)">
+		<rect id="mail_email_message_electronic_online_web_icon-icons.com_59986 1" width="26.666670" height="26.666668" x="6.666626" y="7.037109" fill="rgb(255,255,255)" fill-opacity="0" />
+		<g id="Glyph_copy_2">
+			<path id="Vector" d="M32.9687 11.1942C32.5929 10.6438 31.9608 10.28 31.2474 10.28L8.75245 10.28C8.05411 10.28 7.43661 10.6309 7.05786 11.1621L20.0412 21.9879L32.9687 11.1942Z" fill="rgb(20,20,26)" fill-rule="evenodd" />
+			<path id="Vector" d="M6.66919 13.0071L6.66919 28.3775C6.66919 29.5233 7.60669 30.4608 8.75252 30.4608L31.2475 30.4608C32.3934 30.4608 33.3309 29.5233 33.3309 28.3775L33.3309 13.0625L20.0413 24.1579L6.66919 13.0071Z" fill="rgb(20,20,26)" fill-rule="evenodd" />
+		</g>
+	</g>
+</svg>

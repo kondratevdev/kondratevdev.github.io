@@ -2,3 +2,25 @@
 layout: default
 title: Alexander Kondratev
 ---
+<section class="about">
+  <div class="about__avatar">
+    <img src="{{ "/assets/images/avatar.webp" | prepend: site.baseurl }}" alt="Alexander Kondratev">
+  </div>
+  <header class="about__header">
+    <h1 class="about__name">Alexander Kondratev</h1>
+  </header>
+  <nav class="about__social" aria-label="Social media links">
+    <a target="_blank" href="https://github.com/kondratevdev" class="about__github" aria-label="GitHub profile">
+      <img src="{{ "/assets/images/social/github.svg" | prepend: site.baseurl }}" alt="GitHub">
+    </a>
+    <a target="_blank" href="https://t.me/kondratevdev" class="about__telegram" aria-label="Telegram">
+      <img src="{{ "/assets/images/social/telegram.svg" | prepend: site.baseurl }}" alt="Telegram">
+    </a>
+    <a target="_blank" href="mailto:mail@kondratev.dev" class="about__email" aria-label="Email">
+      <img src="{{ "/assets/images/social/email.svg" | prepend: site.baseurl }}" alt="Email">
+    </a>
+    <a target="_blank" href="https://linkedin.com/in/kondratevdev" class="about__linkedin" aria-label="LinkedIn profile">
+      <img src="{{ "/assets/images/social/linkedin.svg" | prepend: site.baseurl }}" alt="LinkedIn">
+    </a>
+  </nav>
+</section>
