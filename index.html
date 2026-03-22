@@ -3,12 +3,17 @@ layout: default
 title: Alexander Kondratev
 ---
 <section class="about">
-  <div class="about__avatar">
-    <img src="{{ "/assets/images/avatar.webp" | prepend: site.baseurl }}" alt="Alexander Kondratev" fetchpriority="high">
+  <div class="about__info">
+    <div class="about__avatar">
+      <img src="{{ "/assets/images/avatar.webp" | prepend: site.baseurl }}" alt="Alexander Kondratev" fetchpriority="high">
+    </div>
+
+    <header class="about__header">
+      <h1 class="about__name">Alexander Kondratev</h1>
+      <p class="about__description">backend developer</p>
+    </header>
   </div>
-  <header class="about__header">
-    <h1 class="about__name">Alexander Kondratev</h1>
-  </header>
+
   <nav class="about__social" aria-label="Social media links">
     <a target="_blank" href="https://github.com/kondratevdev" class="about__github" aria-label="GitHub profile">
       <img src="{{ "/assets/images/social/github.svg" | prepend: site.baseurl }}" alt="GitHub">

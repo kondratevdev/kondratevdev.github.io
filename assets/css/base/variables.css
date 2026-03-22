@@ -1,0 +1,76 @@
+:root {
+  /* =======================
+     Base colors
+  ======================= */
+  --color-black: #0A0E14;
+  --color-white: #B3B1AD;
+
+  --color-gray-light: #626A73;
+  --color-gray: #4d5566;
+
+  /* =======================
+     Accent colors
+  ======================= */
+  --color-accent-yellow: #E6B450;
+  --color-accent-orange: #FFB454;
+  --color-accent-orange-red: #FF8F40;
+  --color-accent-blue: #59C2FF;
+  --color-accent-green: #C2D94C;
+
+  /* =======================
+     Code syntax
+  ======================= */
+  --code-color-text: #B3B1AD;
+  --code-color-comment: #626A73;
+  --code-color-string: #C2D94C;
+  --code-color-number: #E6B450;
+  --code-color-keyword: #FF8F40;
+  --code-color-function: #FFB454;
+  --code-color-type: #59C2FF;
+  --code-color-punctuation: #B3B1AD;
+
+  /* =======================
+     UI surfaces
+  ======================= */
+  --color-surface-1: #00010a;
+  --color-surface-2: #1b2733;
+  --color-surface-3: #273747;
+
+  --color-overlay: #1B2733F2;
+  --color-border: #273747;
+  --color-selection: #1b2733;
+
+  /* =======================
+     Typography
+  ======================= */
+  --font-family-primary: 'Fira Code', 'Hack Nerd Font Mono', monospace;
+
+  --font-size-xs: 0.75rem;    /* 12px */
+  --font-size-sm: 0.875rem;   /* 14px */
+  --font-size-base: 1rem;     /* 16px */
+  --font-size-lg: 1.125rem;   /* 18px */
+  --font-size-xl: 1.25rem;    /* 20px */
+  --font-size-2xl: 1.5rem;    /* 24px */
+  --font-size-3xl: 1.875rem;  /* 30px */
+  --font-size-4xl: 2rem;      /* 32px */
+
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.25rem;     /* 20px */
+  --line-height-normal: 1.5rem;     /* 24px */
+  --line-height-relaxed: 1.875rem;  /* 30px */
+  --line-height-loose: 2.375rem;    /* 38px */
+
+  /* =======================
+     Layout
+  ======================= */
+  --container-max-width: 80rem;  /* 1280px */
+  --container-h-padding: 2rem;       /* 32px */
+
+  /* =======================
+     Misc
+  ======================= */
+  --error-image-min: 15rem;  /* 240px */
+  --error-image-max: 25rem;  /* 400px */
+}
