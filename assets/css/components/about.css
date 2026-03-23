@@ -43,14 +43,17 @@
 }
 
 .about__social a {
+  color: var(--color-white);
   display: flex;
   align-items: center;
   justify-content: center;
   width: 48px;
   height: 48px;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, color 0.15s ease;
 }
 
-.about__social a:hover {
+.about__social a:hover,
+.about__social a:focus-visible {
   transform: scale(1.1);
+  color: var(--color-accent-orange-red);
 }

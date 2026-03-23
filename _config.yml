@@ -16,6 +16,10 @@ social:
     - https://t.me/kondratevdev
     - https://linkedin.com/in/kondratevdev
 
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:title
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

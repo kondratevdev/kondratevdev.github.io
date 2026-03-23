@@ -11,5 +11,5 @@ footer {
   display: flex;
   justify-content: center;
   line-height: var(--line-height-normal);
-  font-size: clamp(var(--font-size-xs), 2.5vw, var(--font-size-base));
+  font-size: clamp(var(--font-size-xs), 2.5vw, var(--font-size-sm));
 }

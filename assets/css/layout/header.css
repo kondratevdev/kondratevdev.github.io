@@ -22,6 +22,7 @@
   line-height: var(--line-height-normal);
   color: var(--color-white);
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .header__link:hover {
