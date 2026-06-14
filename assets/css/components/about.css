@@ -35,6 +35,28 @@
 
 .about__description {
   margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.about__description-secondary {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35em;
+}
+
+.about__description a {
+  color: inherit;
+  font-weight: var(--font-weight-bold);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.about__description a:hover,
+.about__description a:focus-visible {
+  color: var(--color-accent-orange-red);
 }
 
 .about__social {
